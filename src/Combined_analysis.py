@@ -9,7 +9,7 @@ import os
 from data_loader import load_gasoline_data
 
 # Setup output dir
-os.makedirs('../results/figures/combined_analysis', exist_ok=True)
+os.makedirs('./results/figures/combined_analysis', exist_ok=True)
 
 print("=== COUNTRIES & REGIONS ANALYSIS ===")
 
@@ -84,7 +84,7 @@ if demand is not None and supply is not None:
     ax2.grid(axis='x', alpha=0.3)
     
     plt.tight_layout()
-    plt.savefig('../results/figures/combined_analysis/countries_regions.png')
+    plt.savefig('./results/figures/combined_analysis/countries_regions.png')
     plt.show()
     
     print("Chart saved: countries_regions.png")
