@@ -4,7 +4,7 @@ import os
 from data_loader import load_gasoline_data
 
 # make output folder
-os.makedirs('../results/figures/yearly_analysis', exist_ok=True)
+os.makedirs('./results/figures/yearly_analysis', exist_ok=True)
 
 print("Yearly market trends")
 
@@ -38,7 +38,7 @@ if demand is not None and supply is not None:
     plt.grid(True, alpha=0.3)
     plt.xticks(years, rotation=45)
     plt.tight_layout()
-    plt.savefig('../results/figures/yearly_analysis/yearly_trends.png')
+    plt.savefig('./results/figures/yearly_analysis/yearly_trends.png')
     plt.show()
     
     # chart 2 - balance
@@ -64,7 +64,7 @@ if demand is not None and supply is not None:
     plt.xticks(years, rotation=45)
     plt.grid(axis='y', alpha=0.3)
     plt.tight_layout()
-    plt.savefig('../results/figures/yearly_analysis/yearly_balance.png')
+    plt.savefig('./results/figures/yearly_analysis/yearly_balance.png')
     plt.show()
     
     # chart 3 - growth
@@ -86,7 +86,7 @@ if demand is not None and supply is not None:
     plt.grid(True, alpha=0.3)
     plt.xticks(growth_years, rotation=45)
     plt.tight_layout()
-    plt.savefig('../results/figures/yearly_analysis/growth_rates.png')
+    plt.savefig('./results/figures/yearly_analysis/growth_rates.png')
     plt.show()
     
     # output results

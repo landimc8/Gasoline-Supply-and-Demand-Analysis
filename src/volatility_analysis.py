@@ -4,7 +4,7 @@ import os
 from data_loader import load_gasoline_data
 
 # make output folder
-os.makedirs('../results/figures/volatility_analysis', exist_ok=True)
+os.makedirs('./results/figures/volatility_analysis', exist_ok=True)
 
 print("Demand vs Supply Volatility")
 
@@ -41,7 +41,7 @@ if demand is not None and supply is not None:
     ax2.grid(axis='x', alpha=0.3)
     
     plt.tight_layout()
-    plt.savefig('../results/figures/volatility_analysis/demand_supply_volatility.png')
+    plt.savefig('./results/figures/volatility_analysis/demand_supply_volatility.png')
     plt.show()
     
     # compare overall volatility

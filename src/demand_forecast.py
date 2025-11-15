@@ -7,8 +7,8 @@ from data_loader import load_gasoline_data
 
 def make_dirs():
     """Create output folders"""
-    os.makedirs('../results/forecasts/demand', exist_ok=True)
-    os.makedirs('../results/figures/forecasts', exist_ok=True)
+    os.makedirs('./results/forecasts/demand', exist_ok=True)
+    os.makedirs('./results/figures/forecasts', exist_ok=True)
 
 
 def forecast_demand(demand_data, months=12):
@@ -72,7 +72,7 @@ def plot_forecasts(demand_data, forecasts, months=12):
     plt.xticks(rotation=45)
     plt.tight_layout()
     
-    plt.savefig('../results/figures/forecasts/demand_forecast.png', 
+    plt.savefig('./results/figures/forecasts/demand_forecast.png', 
                 dpi=300, bbox_inches='tight')
     plt.show()
 
@@ -84,7 +84,7 @@ def save_results(forecasts):
     future_dates = pd.date_range(start='2025-08-01', periods=len(df), freq='MS')
     df.index = future_dates
     
-    df.to_csv('../results/forecasts/demand/demand_forecasts.csv')
+    df.to_csv('./results/forecasts/demand/demand_forecasts.csv')
     return df
 
 

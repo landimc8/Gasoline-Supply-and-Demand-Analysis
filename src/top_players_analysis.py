@@ -4,7 +4,7 @@ import os
 from data_loader import load_gasoline_data
 
 # setup output folders
-os.makedirs('../results/figures/top_players', exist_ok=True)
+os.makedirs('./results/figures/top_players', exist_ok=True)
 
 print("Top Markets Analysis 2016-2025")
 
@@ -50,7 +50,7 @@ if demand is not None and supply is not None:
     ax2.grid(axis='x', alpha=0.3)
     
     plt.tight_layout()
-    plt.savefig('../results/figures/top_players/top_markets_overall.png')
+    plt.savefig('./results/figures/top_players/top_markets_overall.png')
     plt.show()
     
     # market concentration
@@ -91,7 +91,7 @@ if demand is not None and supply is not None:
         'avg_supply': avg_supply,
         'net_position': net_flow
     })
-    summary_data.to_csv('../results/tables/market_leaders_summary.csv')
+    summary_data.to_csv('./results/tables/market_leaders_summary.csv')
     
     # check if leaders are consistent across years
     print(f"\nYearly leader check:")

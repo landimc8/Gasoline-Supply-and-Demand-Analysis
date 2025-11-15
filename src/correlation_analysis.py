@@ -4,8 +4,8 @@ import os
 from data_loader import load_gasoline_data
 
 # Quick setup for output folders
-os.makedirs('../results/figures/correlation', exist_ok=True)
-os.makedirs('../results/tables', exist_ok=True)
+os.makedirs('./results/figures/correlation', exist_ok=True)
+os.makedirs('./results/tables', exist_ok=True)
 
 def get_market_correlations(demand_data, supply_data):
     """Check how demand and supply move together for each market"""
@@ -69,12 +69,12 @@ else:
     
     # Create the chart
     fig = plot_market_correlations(correlations)
-    plt.savefig('../results/figures/correlation/demand_supply_correlation.png', 
+    plt.savefig('./results/figures/correlation/demand_supply_correlation.png', 
                 dpi=300, bbox_inches='tight')
     plt.show()
     
     # Save the results
-    correlations.to_csv('../results/tables/correlation_results.csv', index=False)
+    correlations.to_csv('./results/tables/correlation_results.csv', index=False)
     
     # Print key insights
     avg_corr = correlations['correlation'].mean()
