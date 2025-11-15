@@ -1,5 +1,5 @@
 """
-Module for loading and processing gasoline supply-demand data from Excel files.
+.Module for loading and processing gasoline supply-demand data from Excel files.
 """
 import openpyxl
 import pandas as pd
