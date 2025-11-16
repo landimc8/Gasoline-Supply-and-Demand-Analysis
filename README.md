@@ -46,11 +46,11 @@ Features
 *Austria and Turkey show near-perfect supply-demand tracking*
 
 ### 3. Market Volatility
-![Volatility Analysis](https://github.com/landimc8/Gasoline-Supply-and-Demand-Analysis/blob/main/results/figures/correlation/demand_supply_correlation.png)
+![Volatility Analysis](https://github.com/landimc8/Gasoline-Supply-and-Demand-Analysis/blob/main/results/figures/volatility_analysis/demand_supply_volatility.png)
 *Turkey (demand) and Norway (supply) exhibit highest volatility*
 
 ### 4. Demand Forecast
-![Demand Forecast](https://github.com/landimc8/Gasoline-Supply-and-Demand-Analysis/blob/main/results/figures/correlation/demand_supply_correlation.png)
+![Demand Forecast](https://github.com/landimc8/Gasoline-Supply-and-Demand-Analysis/blob/main/results/figures/volatility_analysis/demand_supply_volatility.png)
 *2025 dip followed by 2026 recovery due to major events*
 
 
