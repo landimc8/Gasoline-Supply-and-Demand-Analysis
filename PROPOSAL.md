@@ -1,3 +1,12 @@
+- **Student's Name:** Zildete Landim Crausaz
+- **Student's Number:** 18308528
+- **Professor's Name** : Simon Scheidegger
+- **Lead TA:** Anna Smirnova
+- **TAs:** Francesco Brunamonti and Zhongshan Chen 
+- **Course:** Data Science and Advanced Programming for Finance
+- **Date:** October 15, 2025
+
+
 # Demand-Supply Analysis for Gasoline-Project Proposal
 
 ## Project Category
