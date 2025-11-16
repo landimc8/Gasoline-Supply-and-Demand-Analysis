@@ -37,20 +37,20 @@ Features
 ## 📈 Key Results & Visualizations
 
 ### 1. Supply-Demand Balance
-![Supply-Demand Balance](results/figures/correlation/demand_supply_correlation.png)
+![Supply-Demand Balance](https://github.com/landimc8/Gasoline-Supply-and-Demand-Analysis/blob/main/results/figures/correlation/demand_supply_correlation.png)
 
 *Italy and MED region show largest deficits, while NWE has consistent surplus*
 
 ### 2. Demand-Supply Correlation  
-![Correlation Analysis](https://raw.githubusercontent.com/landimc39-create/European-Gasoline-Analysis/main/results/figures/correlation/demand_supply_correlation.png)
+![Correlation Analysis](https://github.com/landimc8/Gasoline-Supply-and-Demand-Analysis/blob/main/results/figures/correlation/demand_supply_correlation.png)
 *Austria and Turkey show near-perfect supply-demand tracking*
 
 ### 3. Market Volatility
-![Volatility Analysis](https://raw.githubusercontent.com/landimc39-create/European-Gasoline-Analysis/main/results/figures/volatility_analysis/demand_supply_volatility.png)
+![Volatility Analysis](https://github.com/landimc8/Gasoline-Supply-and-Demand-Analysis/blob/main/results/figures/correlation/demand_supply_correlation.png)
 *Turkey (demand) and Norway (supply) exhibit highest volatility*
 
 ### 4. Demand Forecast
-![Demand Forecast](https://raw.githubusercontent.com/landimc39-create/European-Gasoline-Analysis/main/results/figures/forecasts/demand_forecast.png)
+![Demand Forecast](https://github.com/landimc8/Gasoline-Supply-and-Demand-Analysis/blob/main/results/figures/correlation/demand_supply_correlation.png)
 *2025 dip followed by 2026 recovery due to major events*
 
 
