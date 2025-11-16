@@ -37,7 +37,8 @@ Features
 ## 📈 Key Results & Visualizations
 
 ### 1. Supply-Demand Balance
-![Supply-Demand Balance](https://raw.githubusercontent.com/landimc39-create/European-Gasoline-Analysis/main/results/figures/Combined_analysis/countries_regions.png)
+![Supply-Demand Balance](results/figures/combined_analysis/countries_regions.png)
+
 *Italy and MED region show largest deficits, while NWE has consistent surplus*
 
 ### 2. Demand-Supply Correlation  
