@@ -37,7 +37,7 @@ Features
 ## 📈 Key Results & Visualizations
 
 ### 1. Supply-Demand Balance
-![Supply-Demand Balance](results/figures/combined_analysis/countries_regions.png)
+![Supply-Demand Balance](results/figures/correlation/demand_supply_correlation.png)
 
 *Italy and MED region show largest deficits, while NWE has consistent surplus*
 
