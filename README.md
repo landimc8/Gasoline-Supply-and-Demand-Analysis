@@ -52,7 +52,7 @@ Features
 *Turkey (demand) and Norway (supply) exhibit highest volatility*
 
 ### 4. Demand Forecast
-![Demand Forecast](https://github.com/landimc8/Gasoline-Supply-and-Demand-Analysis/blob/main/results/figures/volatility_analysis/demand_supply_volatility.png)
+![Demand Forecast](https://github.com/landimc8/Gasoline-Supply-and-Demand-Analysis/blob/8d0c821d61e964dc585c90682fd717a25d2d8ce3/results/figures/forecasts/demand_forecast.png)
 *2025 dip followed by 2026 recovery due to major events*
 
 
