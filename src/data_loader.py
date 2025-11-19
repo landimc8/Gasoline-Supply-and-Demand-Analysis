@@ -224,4 +224,4 @@ if __name__ == "__main__":
         print("2. The file has .xlsx or .xls extension")
         print("3. You have pandas and openpyxl installed")
         print("\nRun this to see your files:")
-        print("python diagnostic.py check")
+        print("python diagnostic.py")
